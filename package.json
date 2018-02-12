@@ -1,0 +1,48 @@
+{
+  "name": "orgs",
+  "description": "Get an organization from the GitHub API, or all organizations for one or more users.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jonschlinkert/orgs",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/orgs",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/orgs/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.6"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "github-base": "^1.0.0"
+  },
+  "devDependencies": {
+    "data-store": "^1.0.0",
+    "gulp-format-md": "^1.0.0",
+    "minimist": "^1.2.0",
+    "mocha": "^5.2.0",
+    "prompt-input": "^3.0.0"
+  },
+  "keywords": [
+    "orgs"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
