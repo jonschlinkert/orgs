@@ -1,6 +1,6 @@
 {
   "name": "orgs",
-  "description": "Get an organization from the GitHub API, or all organizations for one or more users.",
+  "description": "Get publicly available information about an organization, or for all organizations for one or more users, from the GitHub API.",
   "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/orgs",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
